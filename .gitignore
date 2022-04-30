@@ -43,6 +43,7 @@
 *.opendb
 *.VC.db
 *.stackdump
+*.dwlt
 
 # Unity3D generated meta files
 *.pidb.meta
