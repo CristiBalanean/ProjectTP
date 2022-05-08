@@ -5,12 +5,18 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class AbstractCharacter : MonoBehaviour
 {
-    [Header("Health")]
-    [SerializeField] protected int hp = 100;
-    [SerializeField] protected int maxHp = 100;
+    [Header("Stats")]
+    [SerializeField, Min(0)] protected int hp = 100;
+    [SerializeField, Min(1)] protected int maxHp = 100;
+    [SerializeField] protected int strength = 10;
+    [SerializeField] protected int  strengthMod = 0;
+    [SerializeField, Min(0)] protected int mana = 100;
+    [SerializeField, Min(1)] protected int maxMana = 100;
+
 
     [Header("Movement")]
-    [SerializeField] protected int speed = 5;
+    [SerializeField] protected int baseSpeed = 5;
+    [SerializeField] protected int sprintSpeed = 10;
     protected Vector2 movement;
     protected Rigidbody2D rb;
 
