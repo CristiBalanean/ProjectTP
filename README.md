@@ -17,7 +17,7 @@ To see which issue you have to implement check either the issues tab in here or 
 ### Trello
 Trello link: https://trello.com/b/o8wmDExe/projecttp-programmingteam
 ###
-For access to the trello contact me on discord.
-
+For access to the trello contact me on discord. (CristiBala24#7781)
+###
 
 !!!Once you finish an issue please close it!!!
