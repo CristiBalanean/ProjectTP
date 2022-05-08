@@ -10,3 +10,5 @@ This is a untiy game in progress, more detail will be added over time.
 
 ### Repo structure
 
+
+!!!Once you finish an issue please close it!!!
