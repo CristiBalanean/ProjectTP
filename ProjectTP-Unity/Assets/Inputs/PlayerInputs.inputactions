@@ -15,13 +15,22 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "2663f6d4-6d70-45c6-8df6-95a8ddeddb18",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Jump",
                     "type": "Button",
                     "id": "e200610d-57ea-49be-9dee-fc3e7f534e1c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Sprint",
@@ -34,6 +43,50 @@
                 }
             ],
             "bindings": [
+                {
+                    "name": "",
+                    "id": "1b6f0535-9350-4ad1-b2d9-8ea69702766e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bcbbcb5-4bb0-4f5d-8911-ade37c1f5fe0",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a97eece4-d54f-4ab1-8334-cfbd145befa8",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3a0494e-7b35-4f5b-bd79-ade7493a096f",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
                 {
                     "name": "WASD",
                     "id": "df08b9bd-fb6f-4ae4-a9a3-797df01734db",
@@ -146,45 +199,34 @@
                 },
                 {
                     "name": "",
-                    "id": "1b6f0535-9350-4ad1-b2d9-8ea69702766e",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2bcbbcb5-4bb0-4f5d-8911-ade37c1f5fe0",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "13d1d8c3-944e-424e-8387-d3d7d33f4c42",
+                    "path": "<XInputController>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Jump",
+                    "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "a97eece4-d54f-4ab1-8334-cfbd145befa8",
-                    "path": "<Keyboard>/shift",
+                    "id": "ab3e0e66-ced5-4ceb-86a3-25c55b07b113",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
-                    "action": "Sprint",
+                    "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "d3a0494e-7b35-4f5b-bd79-ade7493a096f",
-                    "path": "<Gamepad>/buttonEast",
-                    "interactions": "",
+                    "id": "16a137d3-78f0-47dc-9047-66026d828e3f",
+                    "path": "<Keyboard>/q",
+                    "interactions": "Press",
                     "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Sprint",
+                    "groups": "Keyboard",
+                    "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
